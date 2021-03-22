@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.whty.zd.appstore.mvp.view.fragment.RecommendFragment">
+
+    <com.whty.zd.smartpos.library.recyclerview.pullrefresh.PullToRefreshView
+        android:id="@+id/ptr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.whty.zd.smartpos.library.recyclerview.pullrefresh.PullToRefreshView>
+
+</LinearLayout>
