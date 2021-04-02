@@ -8,7 +8,7 @@ android {
     //编译SDK版本
     compileSdkVersion configInfo.compileSdkVersion
     //buid tools版本
-    //buildToolsVersion configInfo.buildToolsVersion
+    buildToolsVersion configInfo.buildToolsVersion
     defaultConfig {
         applicationId "com.whty.zd.appstore"
         //最小支持的SDK版本

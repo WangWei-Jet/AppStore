@@ -1,13 +1,13 @@
 ext {
     android = [
             //编译SDK版本
-            compileSdkVersion: 24,
+            compileSdkVersion: 28,
             //buid tools版本
-//            buildToolsVersion: "26.0.2",
+            buildToolsVersion: "28.0.3",
             //最小支持的SDK版本
             minSdkVersion    : 17,
             //目标SDK版本
-            targetSdkVersion : 24,
+            targetSdkVersion : 28,
             //版本号
             versionCode      : 1,
             // 版本名字
